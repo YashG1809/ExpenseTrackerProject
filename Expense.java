@@ -30,6 +30,6 @@ public class Expense {
     }
 
     public String toString() {
-        return "[" + date + "] " + category + ": ₹" + amount + " - " + description;
+        return "[" + date + "] " + category + ": Rs." + amount + " - " + description;
     }
 }
